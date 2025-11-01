@@ -1,0 +1,14 @@
+[
+	{ "model": "ANN", "parameters": "20M" },
+	{ "model": "RNN", "parameters": "3M" },
+	{ "model": "LSTM", "parameters": "12M" },
+	{ "model": "GRU", "parameters": "10M" },
+	{ "model": "CNN-LSTM Hybrid", "parameters": "18M" },
+	{ "model": "Transformer", "parameters": "30M" },
+	{ "model": "Temporal Convolutional Network (TCN)", "parameters": "15M" },
+	{ "model": "Seq2Seq", "parameters": "25M" },
+	{ "model": "BERT (Financial Fine-tuned)", "parameters": "50M" },
+	{ "model": "GPT (Time Series Adapted)", "parameters": "60M" },
+	{ "model": "Informer", "parameters": "35M" },
+	{ "model": "Temporal Fusion Transformer (TFT)", "parameters": "40M" }
+]

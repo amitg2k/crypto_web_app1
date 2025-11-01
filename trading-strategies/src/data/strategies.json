@@ -1,0 +1,211 @@
+{
+  "strategies": [
+    {
+      "id": 1,
+      "name": "Momentum Alpha",
+      "details": "Advanced momentum-based strategy utilizing machine learning to identify high-probability trend continuations across multiple asset classes. Focuses on capturing sustained price movements with dynamic position sizing.",
+      "dateAdded": "2025-01-15",
+      "strategyType": "Momentum",
+      "performance": "+24.5%",
+      "riskLevel": "Medium",
+      "parameterGrid": [
+        {
+          "parameterName": "EMA",
+          "startValue": 20,
+          "endValue": 50,
+          "increment": 1,
+          "totalSteps": 31
+        },
+        {
+          "parameterName": "RSI",
+          "startValue": 14,
+          "endValue": 21,
+          "increment": 1,
+          "totalSteps": 8
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mean Reversion Pro",
+      "details": "Sophisticated mean reversion algorithm that identifies overextended market conditions and capitalizes on price corrections. Uses statistical arbitrage with robust risk management protocols.",
+      "dateAdded": "2025-02-20",
+      "strategyType": "Mean Reversion",
+      "performance": "+18.3%",
+      "riskLevel": "Low",
+      "parameterGrid": [
+        {
+          "parameterName": "Bollinger Bands Period",
+          "startValue": 15,
+          "endValue": 25,
+          "increment": 1,
+          "totalSteps": 11
+        },
+        {
+          "parameterName": "Standard Deviation",
+          "startValue": 2,
+          "endValue": 4,
+          "increment": 1,
+          "totalSteps": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Volatility Harvester",
+      "details": "AI-driven volatility trading strategy that profits from market uncertainty. Employs options strategies and dynamic hedging to capture volatility premiums while managing downside risk.",
+      "dateAdded": "2025-03-10",
+      "strategyType": "Volatility",
+      "performance": "+31.2%",
+      "riskLevel": "High",
+      "parameterGrid": [
+        {
+          "parameterName": "ATR Period",
+          "startValue": 10,
+          "endValue": 20,
+          "increment": 2,
+          "totalSteps": 6
+        },
+        {
+          "parameterName": "VIX Threshold",
+          "startValue": 15,
+          "endValue": 30,
+          "increment": 5,
+          "totalSteps": 4
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Quantamental Fusion",
+      "details": "Hybrid approach combining quantitative analysis with fundamental data. Integrates sentiment analysis, earnings data, and technical indicators for comprehensive market assessment.",
+      "dateAdded": "2025-04-05",
+      "strategyType": "Hybrid",
+      "performance": "+27.8%",
+      "riskLevel": "Medium",
+      "parameterGrid": [
+        {
+          "parameterName": "MACD Fast",
+          "startValue": 8,
+          "endValue": 16,
+          "increment": 2,
+          "totalSteps": 5
+        },
+        {
+          "parameterName": "MACD Slow",
+          "startValue": 20,
+          "endValue": 30,
+          "increment": 2,
+          "totalSteps": 6
+        },
+        {
+          "parameterName": "Sentiment Score",
+          "startValue": 50,
+          "endValue": 80,
+          "increment": 10,
+          "totalSteps": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Market Neutral Edge",
+      "details": "Delta-neutral strategy designed to generate absolute returns independent of market direction. Pairs long and short positions to minimize market exposure while capturing alpha.",
+      "dateAdded": "2025-05-12",
+      "strategyType": "Market Neutral",
+      "performance": "+15.7%",
+      "riskLevel": "Low",
+      "parameterGrid": [
+        {
+          "parameterName": "Correlation Threshold",
+          "startValue": 70,
+          "endValue": 95,
+          "increment": 5,
+          "totalSteps": 6
+        },
+        {
+          "parameterName": "Rebalance Period (Days)",
+          "startValue": 5,
+          "endValue": 15,
+          "increment": 5,
+          "totalSteps": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Breakout Hunter",
+      "details": "Pattern recognition system that identifies consolidation breakouts with high win rates. Combines volume analysis, price action, and machine learning for precise entry timing.",
+      "dateAdded": "2025-06-18",
+      "strategyType": "Breakout",
+      "performance": "+22.4%",
+      "riskLevel": "Medium",
+      "parameterGrid": [
+        {
+          "parameterName": "Consolidation Period",
+          "startValue": 10,
+          "endValue": 30,
+          "increment": 5,
+          "totalSteps": 5
+        },
+        {
+          "parameterName": "Volume Multiplier",
+          "startValue": 2,
+          "endValue": 4,
+          "increment": 1,
+          "totalSteps": 3
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "AI Trend Predictor",
+      "details": "Deep learning neural network trained on decades of market data to predict trend direction and strength. Adapts to changing market regimes with continuous model optimization.",
+      "dateAdded": "2025-07-22",
+      "strategyType": "AI/ML",
+      "performance": "+29.6%",
+      "riskLevel": "Medium-High",
+      "parameterGrid": [
+        {
+          "parameterName": "Lookback Window",
+          "startValue": 30,
+          "endValue": 90,
+          "increment": 15,
+          "totalSteps": 5
+        },
+        {
+          "parameterName": "Confidence Threshold",
+          "startValue": 60,
+          "endValue": 90,
+          "increment": 10,
+          "totalSteps": 4
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Crypto Arbitrage Elite",
+      "details": "High-frequency arbitrage system exploiting price discrepancies across multiple cryptocurrency exchanges. Lightning-fast execution with automated risk controls.",
+      "dateAdded": "2025-08-30",
+      "strategyType": "Arbitrage",
+      "performance": "+35.1%",
+      "riskLevel": "Medium",
+      "parameterGrid": [
+        {
+          "parameterName": "Price Spread %",
+          "startValue": 1,
+          "endValue": 10,
+          "increment": 1,
+          "totalSteps": 10
+        },
+        {
+          "parameterName": "Min Volume (BTC)",
+          "startValue": 1,
+          "endValue": 4,
+          "increment": 1,
+          "totalSteps": 4
+        }
+      ]
+    }
+  ]
+}
