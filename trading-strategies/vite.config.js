@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
 	plugins: [react()],
-	base: "/crypto_web_app1/",
+	base: "/crypto_web_app1/", // Keep base path for both GitHub Pages and custom domain
 	test: {
 		environment: "jsdom",
 		globals: true,
